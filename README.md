@@ -51,6 +51,20 @@ Otomasyon sistemleri ve API pipeline'ları için:
 python verify_pdf_signature.py sozlesme_imzali.pdf --json
 ```
 
+### 3. Klasördeki Tüm PDF'leri Toplu İnceleme (Batch Scan)
+Bir klasördeki tüm evrakları tarayıp rapor üretmek veya CI/CD'de imzasız belge olup olmadığını denetlemek için:
+```bash
+# Klasör tarama
+python verify_pdf_signature.py --dir ./evraklar/
+
+# JSON raporunu dosyaya kaydetme
+python verify_pdf_signature.py --dir ./evraklar/ --output imza_raporu.json
+
+# İmzasız belge varsa çıkış kodu 1 döndür (CI/CD kontrolü)
+python verify_pdf_signature.py sozlesme.pdf --require-signed
+```
+
+
 ```json
 {
   "file_name": "sozlesme_imzali.pdf",
