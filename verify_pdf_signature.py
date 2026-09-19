@@ -142,7 +142,7 @@ def inspect_pdf(pdf_path, as_json=False):
     if not signatures:
         print("[!] Bu PDF dosyasında herhangi bir dijital imza sözlüğü (/Type /Sig) tespit edilemedi.")
         print("    Not: Islak imza taramaları görseldir ve elektronik imza sayılmaz.")
-        print("\nRehber: https://eimza-kep.github.io/eimza-blog/posts/e-imza-cihazlari-nasil-calisir-teknik-rehber.html")
+        print("\nRehber: https://eimza-kep.github.io/eimza-blog/posts/pdf-dokumanlara-e-imza-atma-ucretsiz-rehber.html")
         return
 
     for sig in signatures:
@@ -161,7 +161,7 @@ def inspect_pdf(pdf_path, as_json=False):
     print("-" * 80)
     print("💡 BİLGİ: 5070 Sayılı Kanun gereği geçerli e-imzalar Nitelikli Elektronik Sertifika (NES)")
     print("   ile üretilir ve ıslak imza ile birebir aynı hukuki geçerliliğe sahiptir.")
-    print("   Rehber: https://eimza-kep.github.io/eimza-blog/posts/e-imza-cihazlari-nasil-calisir-teknik-rehber.html")
+    print("   Rehber: https://eimza-kep.github.io/eimza-blog/posts/pdf-dokumanlara-e-imza-atma-ucretsiz-rehber.html")
     print("=" * 80)
 
 def main():
