@@ -90,17 +90,11 @@ else:
 
 ## 📚 İlgili Teknik Rehberler
 
-* 📄 [E-İmza Cihazları (USB Token) Nasıl Çalışır? Çipin İçindeki Teknik Dünya](https://eimza-kep.github.io/eimza-blog/posts/e-imza-cihazlari-nasil-calisir-teknik-rehber.html)
-* 📄 [EKAP İhalesine e-İmza ile Teklif Nasıl Verilir? Hatalar ve Çözümleri](https://eimza-kep.github.io/eimza-blog/posts/ekap-e-imza-ile-ihale-teklif-verme.html)
-* 📄 [Web Tapu Üzerinden E-İmza ile Satış ve İpotek Başvurusu Rehberi](https://eimza-kep.github.io/eimza-blog/posts/web-tapu-e-imza-ile-basvuru-rehberi.html)
-* 📄 [Dijital Kimliğin Evrimi: Kil Tabletlerden E-İmza ve YubiKey'lere](https://eimza-kep.github.io/eimza-blog/posts/e-imza-ve-dijital-guvenlik-tarihi-yubikey-2fa.html)
-
 ---
 
 ## ⚖️ Lisans
 
 Bu proje [MIT Lisansı](LICENSE) ile lisanslanmıştır. Ticari ve kişisel projelerde serbestçe kullanılabilir.
-
 
 ### 📚 İlgili Rehber ve Çözümler
 * 📄 [PDF Dokümanlara Ücretsiz ve Güvenli E-İmza Atma Rehberi](https://eimza-kep.github.io/eimza-blog/posts/pdf-dokumanlara-e-imza-atma-ucretsiz-rehber.html)
