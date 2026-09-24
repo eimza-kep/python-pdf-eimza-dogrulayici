@@ -1,6 +1,7 @@
 # Python PDF E-İmza (PAdES / CAdES) Doğrulayıcı 📜🔏
 
-[![Lisans: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python CI](https://github.com/eimza-kep/python-pdf-eimza-dogrulayici/actions/workflows/ci.yml/badge.svg)](https://github.com/eimza-kep/python-pdf-eimza-dogrulayici/actions)
+[![Lisans: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python: 3.8+](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://python.org)
 [![Standart: PAdES](https://img.shields.io/badge/Standart-ETSI%20PAdES-orange.svg)](https://etsi.org)
 [![Bağımlılık: Yok](https://img.shields.io/badge/Dependencies-Zero--Dependency-success.svg)](https://github.com)
