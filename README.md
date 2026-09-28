@@ -114,10 +114,10 @@ Bu araç [eimza-kep](https://github.com/eimza-kep) organizasyonunun açık kayna
 ---
 
 ## 📚 İlgili Teknik Rehberler
-* 📄 [PDF Dokümanlara Ücretsiz ve Güvenli E-İmza Atma Rehberi](https://eimza-rehberi.pages.dev/yazilar/ucretsiz-e-imza-atma-yontemleri.html)
-* 📄 [Özel Anahtar (Private Key) Neden Akıllı Kartın İçinden Kopyalanamaz?](https://dijital-kimlik-guvenlik.pages.dev/yazilar/ozel-anahtar-private-key-neden-kopyalanamaz.html)
-* 📄 [Zaman Damgası (Timestamp) Nedir ve Belgelerde Neden Zorunludur?](https://dijital-kimlik-guvenlik.pages.dev/yazilar/zaman-damgasi-timestamp-nedir-neden-zorunlu.html)
-* 📄 [Elektronik İmza Nedir? Islak İmza Yerine Hangi Alanlarda Kullanılır?](https://eimza-rehberi.pages.dev/yazilar/5070-sayili-kanun-eimza-hukuki-gecerlilik.html)
+* 📄 [PDF Dokümanlara Ücretsiz ve Güvenli E-İmza Atma Rehberi](https://eimzabilgi.site/yazilar/ucretsiz-e-imza-atma-yontemleri.html)
+* 📄 [Özel Anahtar (Private Key) Neden Akıllı Kartın İçinden Kopyalanamaz?](https://kimlikguvenlik.site/yazilar/ozel-anahtar-private-key-neden-kopyalanamaz.html)
+* 📄 [Zaman Damgası (Timestamp) Nedir ve Belgelerde Neden Zorunludur?](https://kimlikguvenlik.site/yazilar/zaman-damgasi-timestamp-nedir-neden-zorunlu.html)
+* 📄 [Elektronik İmza Nedir? Islak İmza Yerine Hangi Alanlarda Kullanılır?](https://eimzabilgi.site/yazilar/5070-sayili-kanun-eimza-hukuki-gecerlilik.html)
 
 ---
 
