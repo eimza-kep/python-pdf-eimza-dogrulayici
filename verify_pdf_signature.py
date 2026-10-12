@@ -90,8 +90,9 @@ def parse_asn1_strings_from_der(der_bytes):
         i += 1
         
     known_eshs = [
-        "Kamu SM", "TÜBİTAK BİLGEM", "TUBITAK", "TurkTrust", "TÜRKRUST",
+        "Kamu SM", "TÜBİTAK BİLGEM", "TUBITAK", "TurkTrust", "TÜRKTRUST",
         "E-Tugra", "E-TUĞRA", "E-Guven", "E-GÜVEN", "EDM Bilişim", "EDM",
+        "E-İmzaTR", "E-İmza TR", "PTT Bilgi Teknolojileri", "Türksat Uydu Haberleşme",
         "Izmir Nitelikli Elektronik Sertifika", "Yetkili Elektronik Sertifika Hizmet Sağlayıcısı"
     ]
     
@@ -200,9 +201,12 @@ def extract_signatures_native(pdf_path):
             except Exception:
                 pass
 
+        has_dss = b"/DSS" in data or b"/VRI" in data
         format_desc = "Bilinmiyor"
         if "ETSI.CAdES.detached" in subfilter:
-            format_desc = "PAdES (ETSI TS 102 778 - Türkiye e-İmza Standardı)"
+            format_desc = "PAdES-LTV / PAdES-LTA (DSS Korumalı)" if has_dss else "PAdES (ETSI TS 102 778 - Türkiye e-İmza Standardı)"
+        elif "ETSI.rfc3161" in subfilter:
+            format_desc = "RFC 3161 Dijital Zaman Damgası (TSA Token)"
         elif "adbe.pkcs7.detached" in subfilter:
             format_desc = "PKCS#7 Detached (Standart Dijital İmza)"
         elif "adbe.pkcs7.sha1" in subfilter:
@@ -213,6 +217,7 @@ def extract_signatures_native(pdf_path):
             "signer_name": name or "İsimsiz / Sertifika İçi",
             "subfilter": subfilter,
             "format": format_desc,
+            "ltv_enabled": has_dss,
             "signing_time": m_date,
             "reason": reason,
             "location": location,
